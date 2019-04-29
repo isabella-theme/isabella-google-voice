@@ -1,0 +1,93 @@
+/* https://tiamarth.github.io/Isabella/ */
+body {
+    --colorBlack: black;
+    --colorWhite: white;
+    --colorHl: #be4318;
+    --colorHlFaded: #b18879;
+    --colorHlFg: white;
+    --colorBg: #333335;
+    --colorBgDarker: #232325;
+    --colorFg: #d1d1d1;
+    --colorFgBolded: white;
+    --colorFgFaded: #87878c;
+    --colorAc: #101013;
+    color: var(--colorFg);
+    background-color: var(--colorAc);
+}
+a {color: var(--colorHl);}
+header.gb_ja {
+    color: var(--colorFg) !important;
+    background-color: var(--colorAc) !important;
+}
+.gb_ja.gb_rc .gb_qc .gb_pc {color: var(--colorFg);}
+input,input::placeholder,.gb_ne.gb_la {
+    color: var(--colorFg) !important;
+    background-color: var(--colorBg) !important;
+}
+.shBpM-K92Tbc {background-color: var(--colorBg);}
+.gvPageRoot.gvHighContrast .grey-900 {color: var(--colorWhite);}
+.gvPageRoot.gvHighContrast .grey-700 {color: var(--colorFg);}
+.e4Lfqb-ix5fpc,.e4Lfqb-LefcV,.e4Lfqb-zRbvQe,div[role="button"]:focus, div[role="tab"]:focus,.e4Lfqb-Cqsp {background-color: var(--colorAc);}
+.gmat-nav-list[_ngcontent-c5] .gmat-nav-list-item.gmat-list-item-active[_ngcontent-c5] {background-color: var(--colorHl);}
+.root[_ngcontent-c5] .gmat-nav-list-item.gmat-list-item-active .mat-icon svg {color: var(--colorHlFg);}
+.gmat-nav-list[_ngcontent-c5] .gmat-nav-list-item.gmat-list-item-active[_ngcontent-c5] {color: var(--colorHlFg);}
+.menuDivider[_ngcontent-c5] {border-top-color: var(--colorBg);}
+.root[_ngcontent-c5]:not(.expanded) .navItemBadge[_ngcontent-c5] {
+    color: var(--colorHlFg);
+    background-color: var(--colorHl);
+}
+.GYQtq-JjL0qc {background-color: var(--colorAc);}
+.rkljfb-gk6SMd,.rkljfb-H9tDt:hover,.rkljfb-H9tDt:focus {background-color: var(--colorHl);}
+.gvPageRoot .grey-900,.rkljfb-H9tDt {color: var(--colorWhite);}
+.mat-icon.mat-primary {color: var(--colorHl);}
+.q2hAhb-RZ063d {background-color: var(--colorAc);}
+.uM2Vn-VdSJob {color: var(--colorFgFaded);}
+.GYQtq-ocIXwb {background-color: var(--colorBg);}
+.md-body-1 {line-height: 1.4;}
+.Bqxti-VCkuzd {
+    padding: 0;
+    border-radius: 0;
+    color: var(--colorFg) !important;
+    background-color: transparent !important;
+}
+.wnqXZe-vaWIle {background-color: var(--colorBg);}
+.gvPageRoot md-content, .gvPageRoot .grey-700 {color: var(--colorFg);}
+.Bqxti-HIQJ9 {color: var(--colorFgFaded);}
+.md-input,.md-input::placeholder {color: var(--colorFg) !important;}
+.mat-icon-button.mat-primary[disabled][_ngcontent-c2] {color: var(--colorFg);}
+.wnqXZe-uquGtd {border-color: var(--colorAc);}
+.wnqXZe-p5wKMe,.wnqXZe-kemPlf,.wnqXZe-Igk6W,
+.wnqXZe-xro71b {
+    background-color: var(--colorHl);
+}
+.Xkk8O-LAEBIe {background-color: var(--colorBg);}
+.gmat-nav-list .gmat-nav-list-item.gmat-list-item-active {
+    color: var(--colorHlFg);
+    background-color: var(--colorHl);
+    border-radius: 0;
+}
+.gmat-nav-list .gmat-nav-list-item {color: var(--colorFg);}
+.Xkk8O-j19Rqc {background-color: var(--colorBg);}
+.Y01sTe-akRZae {color: var(--colorFg);}
+.gmat-button .mat-stroked-button:not([disabled]) {
+    color: var(--colorFg);
+    background-color: var(--colorAc);
+    border-color: var(--colorAc);
+    transition: 0.2s ease-in-out;
+}
+.gmat-button .mat-stroked-button:not([disabled]):hover {
+    color: var(--colorFg);
+    background-color: var(--colorBg);
+    border-color: var(--colorBg);
+}
+.Xkk8O-j19Rqc * {border-color: var(--colorAc);}
+md-switch.md-checked.md-primary .md-bar {background-color: var(--colorHlFaded);}
+md-switch.md-checked.md-primary .md-thumb {background-color: var(--colorHl);}
+.learn-more-link[_ngcontent-c14] {color: var(--colorHl);}
+.SJOMu-iD4Gce,.SJOMu-dOY8ne,.SJOMu-znOD5b {color: var(--colorFg);}
+md-menu-content {background-color: var(--colorBg);}
+md-menu-content md-menu-item {color: var(--colorFg);}
+md-menu-content md-menu-item:hover {
+    color: var(--colorHlFg);
+    background-color: var(--colorHl);
+}
