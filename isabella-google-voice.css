@@ -136,6 +136,33 @@ input,input::placeholder,.gb_ne.gb_la {
 .gvPageRoot md-content,.gvPageRoot .grey-700 {color: var(--colorFg);}
 .Bqxti-HIQJ9 {color: var(--colorFgFaded);}
 .md-input,.md-input::placeholder {color: var(--colorFg) !important;}
+/* voicemail */
+.wnqXZe-vaWIle {background-color: var(--colorBg);}
+.wnqXZe-xro71b {background-color: var(--colorHl);}
+.wnqXZe-p5wKMe {background-color: var(--colorHlFaded);}
+/* settings nav */
+.gb_ja.gb_rc .gb_qc .gb_pc {color: var(--colorFg);}
+/* settings sidebar */
+.Xkk8O-LAEBIe {background-color: var(--colorAc);}
+/* settings content */
+.Xkk8O-j19Rqc {background-color: var(--colorBg);}
+.lQP0Od-Ao5dZb {border-color: var(--colorAc);}
+.Y01sTe-akRZae {color: var(--colorFg);}
+.gmat-button .mat-button:not([disabled]),
+.gmat-button.mat-button:not([disabled]) {
+    color: var(--colorFg);
+    border-color: var(--colorAc);
+}
+.gmat-button .mat-stroked-button:not([disabled]):hover,
+.gmat-button .mat-stroked-button:not([disabled]):focus,
+.gmat-button.mat-stroked-button:not([disabled]):hover,
+.gmat-button.mat-stroked-button:not([disabled]):focus {
+    border-color: var(--colorBgDarker);
+}
+.gmat-button .mat-button:not([disabled]):hover .mat-button-focus-overlay,
+.gmat-button.mat-button:not([disabled]):hover .mat-button-focus-overlay {
+    background-color: transparent;
+}
 /* voice specific menus */
 md-menu-content.md-default-theme,md-menu-content {
     background-color: var(--colorBgDarker);
