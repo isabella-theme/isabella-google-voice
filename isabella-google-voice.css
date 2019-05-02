@@ -7,6 +7,7 @@ body {
     --colorHlFg: var(--colorWhite);
     --colorBg: #333335;
     --colorBgDarker: #232325;
+    --colorBgFaded: #444445e8;
     --colorFg: #d1d1d1;
     --colorFgBolded: white;
     --colorFgFaded: #87878c;
@@ -16,12 +17,73 @@ body {
     background-color: var(--colorBg);
 }
 /* global */
+a {color: var(--colorHl);}
 .mat-divider {border-color: var(--colorBg);}
 .gvPageRoot .grey-900 {color: var(--colorHlFg);}
+.mat-icon.mat-accent {color: var(--colorFg);}
+.mat-button.mat-primary[disabled][_ngcontent-bhw-c2],
+.mat-button.mat-accent[disabled][_ngcontent-bhw-c2],
+.mat-button.mat-warn[disabled][_ngcontent-bhw-c2],
+.mat-button[disabled][disabled][_ngcontent-bhw-c2],
+.mat-icon-button.mat-primary[disabled][_ngcontent-bhw-c2],
+.mat-icon-button.mat-accent[disabled][_ngcontent-bhw-c2],
+.mat-icon-button.mat-warn[disabled][_ngcontent-bhw-c2],
+.mat-icon-button[disabled][disabled][_ngcontent-bhw-c2],
+.mat-stroked-button.mat-primary[disabled][_ngcontent-bhw-c2],
+.mat-stroked-button.mat-accent[disabled][_ngcontent-bhw-c2],
+.mat-stroked-button.mat-warn[disabled][_ngcontent-bhw-c2],
+.mat-stroked-button[disabled][disabled][_ngcontent-bhw-c2] {
+    color: var(--colorFg);
+}
+/* google apps menu and user switcher */
+.gb_m {color: var(--colorFg);}
+.gb_C,.gb_z {background-color: var(--colorBgDarker);}
+.gb_h:hover a {border-color: var(--colorBgFaded);}
+.gb_h:hover .gb_m {background-color: var(--colorBgFaded);}
+.gb_T,#gb#gb .gb_T{color: var(--colorHl);}
+.gb_D {background-color: var(--colorBgDarker);}
+#gb a.gb_D,#gb a.gb_D:visited,#gb a.gb_D:active,#gb a.gb_E,#gb a.gb_E:visited {
+    color: var(--colorHl);
+}
+/* user switcher */
+.gb_z {color: var(--colorFgBolded);}
+.gb_db {color: var(--colorFg);}
+.gb_Xa,#gb a.gb_Xa.gb_Xa,.gb_Za a,#gb .gb_Za.gb_Za a {color: var(--colorHl);}
+.gb_3a .gb_0 {
+    background-color: var(--colorHl);
+    border-color: var(--colorHl);
+}
+#gb .gb_3a a.gb_0.gb_0 {color: var(--colorHlFg);}
+.gb_3a .gb_0:hover {
+    background-color: var(--colorHlFaded);
+    border-color: var(--colorHlFaded);
+}
+.gb_ub {background-color: var(--colorBgDarker);}
+.gb_yb:hover {background-color: var(--colorBgFaded);}
+.gb_Kb {color: var(--colorFgBolded);}
+.gb_Lb {color: var(--colorFg);}
+.gb_jb {background-color: var(--colorBgDarker);}
+.gb_0 {
+    background-color: var(--colorBg);
+    border-color: var(--colorBg);
+}
+.gb_0,#gb a.gb_0.gb_0,.gb_1 {color: var(--colorFg);}
+.gb_jb .gb_kb:hover {
+    background: var(--colorHl);
+    border-color: var(--colorHl);
+}
+/* sign up page */
+.shBpM-K92Tbc {background-color: var(--colorBg);}
+.gvPageRoot.gvHighContrast .grey-900 {color: var(--colorWhite);}
+.gvPageRoot.gvHighContrast .grey-700 {color: var(--colorFg);}
+.e4Lfqb-ix5fpc,.e4Lfqb-LefcV,.e4Lfqb-zRbvQe,
+div[role="button"]:focus,div[role="tab"]:focus,.e4Lfqb-Cqsp {
+    background-color: var(--colorAc);
+}
 /* nav */
 #gvPageRoot > div:nth-child(1) {border-color: var(--colorAc) !important;}
 #gb {background-color: var(--colorAc) !important;}
-.gb_ja.gb_Od svg, .gb_ja.gb_rc svg, .gb_ja.gb_rc .gb_qc .gb_Pd {
+.gb_ja.gb_Od svg,.gb_ja.gb_rc svg,.gb_ja.gb_rc .gb_qc .gb_Pd {
     color: var(--colorFg);
 }
 input,input::placeholder,.gb_ne.gb_la {
@@ -33,8 +95,7 @@ input,input::placeholder,.gb_ne.gb_la {
 #gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-side-nav {
     background-color: var(--colorAc);
 }
-.gmat-nav-list .gmat-nav-list-item,
-.gmat-nav-list .gmat-nav-list-item .mat-icon {
+.gmat-nav-list .gmat-nav-list-item,.gmat-nav-list .gmat-nav-list-item .mat-icon {
     color: var(--colorFg);
 }
 .gmat-nav-list .gmat-nav-list-item.gmat-list-item-active,
@@ -63,7 +124,7 @@ input,input::placeholder,.gb_ne.gb_la {
 .q2hAhb-RZ063d {background-color: var(--colorAc);}
 .uM2Vn-VdSJob {color: var(--colorFgFaded);}
 /* messenger */
-.GYQtq-ocIXwb {background-color: var(--colorBg);}
+.GYQtq-JjL0qc,.GYQtq-ocIXwb {background-color: var(--colorBg);}
 .md-body-1 {line-height: 1.4;}
 .Bqxti-VCkuzd {
     padding: 0;
@@ -71,6 +132,6 @@ input,input::placeholder,.gb_ne.gb_la {
     color: var(--colorFg) !important;
     background-color: transparent !important;
 }
-.gvPageRoot md-content, .gvPageRoot .grey-700 {color: var(--colorFg);}
+.gvPageRoot md-content,.gvPageRoot .grey-700 {color: var(--colorFg);}
 .Bqxti-HIQJ9 {color: var(--colorFgFaded);}
 .md-input,.md-input::placeholder {color: var(--colorFg) !important;}
